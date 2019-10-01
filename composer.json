@@ -1,0 +1,15 @@
+{
+  "name": "isueit/isueo_news_article",
+  "type": "drupal-custom-module",
+  "description": "Module to create a News Article Content Type",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:isueit/news_embed_field.git"
+    }
+  ],
+  "require": {
+    "drupal/pathauto": "^1.3",
+    "isueit/news_embed_field": "dev-master"
+  }
+}

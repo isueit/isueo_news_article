@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.news_article.body
+    - field.field.node.news_article.field_embed_news_article
+    - field.field.node.news_article.field_teaser
+    - node.type.news_article
+  module:
+    - news_embed_field
+    - text
+    - user
+id: node.news_article.default
+targetEntityType: node
+bundle: news_article
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_embed_news_article:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: news_embed_field_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_teaser: true

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_embed_news_article
+    - node.type.news_article
+  module:
+    - news_embed_field
+id: node.news_article.field_embed_news_article
+field_name: field_embed_news_article
+entity_type: node
+bundle: news_article
+label: 'Embed News Article'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: news_embed_field

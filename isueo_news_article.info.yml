@@ -1,0 +1,10 @@
+name: ISUEO New Article
+type: module
+description: 'Create a News Artile content type'
+package: ISUEO
+core: 8.x
+dependencies:
+  - drupal:system
+  - drupal:views
+  - news_embed_field:news_embed_field
+  - pathauto:pathauto
