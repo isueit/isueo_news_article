@@ -1,0 +1,9 @@
+<?php
+//Add custom css to news_article nodes
+function isueo_news_article_preprocess_node(&$variables) {
+  $node = $variables['node'];
+    //check content type
+  if ($node->getType() == 'news_article') {
+    $variables['#attached']['library'][] = 'isueo_news_article/article-styles';
+  }
+}

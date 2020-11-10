@@ -1,0 +1,7 @@
+/* Styles for Crops blogs */
+
+.field-name-field-category, .field-name-field-tags {display:none;}
+
+.field-name-field-lug-blog-author img {margin-right:15px;}
+
+.field-name-field-lug-blog-author .field-label {font-weight:bold; margin-top:15px;}
