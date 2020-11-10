@@ -1,6 +1,6 @@
 # isueo_news_article.yml
-article-styles:
+isueo_news_article:
   version: 1.x
   css:
     theme:
-      css/article-styling.css: {}
+      css/isueo_news_article.css: {}

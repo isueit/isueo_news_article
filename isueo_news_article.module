@@ -4,6 +4,6 @@ function isueo_news_article_preprocess_node(&$variables) {
   $node = $variables['node'];
     //check content type
   if ($node->getType() == 'news_article') {
-    $variables['#attached']['library'][] = 'isueo_news_article/article-styles';
+    $variables['#attached']['library'][] = 'isueo_news_article/isueo_news_article';
   }
 }
